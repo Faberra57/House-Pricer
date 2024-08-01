@@ -1,15 +1,14 @@
-#My First Machine Learning Project
+# My First Machine Learning Project
 
-#Overview
+## Overview
 
-I started learning Machine Learning with the book [‘Hands-On Machine Learning with Scikit-Learn & TensorFlow’]([URL](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)) by Aurélien Géron. After reading this book, I wanted to implement what I learned, so I decided to participate in [this Kaggle competition]([URL](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)).
+I started learning Machine Learning with the book [‘Hands-On Machine Learning with Scikit-Learn & TensorFlow’](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) by Aurélien Géron. After reading this book, I wanted to implement what I learned, so I decided to participate in [this Kaggle competition](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques).
 
-The competition involves predicting house prices based on 79 explanatory variables that describe almost every aspect of residential homes in Ames, Iowa.
+The competition involves predicting house prices based on [79 explanatory variables](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data) that describe almost every aspect of residential homes in Ames, Iowa.
 
-#Project Structure
+## Project Description
 
-	- data/: Contains the dataset files.
-	- notebooks/: Jupyter notebooks for data exploration, analysis, and model building.
-	- src/: Source code for the project.
-	- models/: Saved machine learning models.
-	- results/: Results and outputs from the analysis and model predictions.
+	- data_description : Dataset Description   .
+	- house_pricing : Jupyter notebook for data exploration, analysis, data cleaning and model building.
+    - train : data to train model
+    - test : data to validate model
